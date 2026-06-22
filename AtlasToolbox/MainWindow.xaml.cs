@@ -129,6 +129,7 @@ namespace AtlasToolbox
             Advanced.Content = App.GetValueFromItemList("Advanced");
             Security.Content = App.GetValueFromItemList("Security");
             Troubleshooting.Content = App.GetValueFromItemList("Troubleshooting");
+            CustomCategory.Content = App.GetValueFromItemList("Custom");
             Setting.Content = App.GetValueFromItemList("Settings");
 
             // Search Box

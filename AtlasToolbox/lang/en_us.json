@@ -40,6 +40,10 @@
   "InstallDriversDescription": "Detect hardware and install drivers automatically",
   "UninstallDriverTool": "Remove Driver Tool",
   "UninstallDriverToolDescription": "Removes the driver tool and any downloaded driver packs to free up disk space",
+  "ExtendDisk": "Extend System Drive",
+  "ExtendDiskDescription": "Merges unallocated disk space (and the Recovery partition, if found) into the system drive",
+  "OpenNetplwiz": "Manage User Accounts",
+  "OpenNetplwizDescription": "Opens the classic User Accounts dialog (netplwiz)",
   "FixErrors": "Troubleshoot",
   "FixErrorsDescription": "Fix Errors 2502 and 2503",
   "RepairWinComponent": "Repair Windows Components",
@@ -359,6 +363,7 @@
   "Advanced": "Advanced Configuration",
   "Security": "Security",
   "Troubleshooting": "Troubleshooting",
+  "Custom": "Custom",
 
   "Language": "Language",
 

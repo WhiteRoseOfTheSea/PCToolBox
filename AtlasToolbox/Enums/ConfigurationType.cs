@@ -19,6 +19,8 @@ namespace AtlasToolbox.Enums
         Troubleshooting,
         [Description("Software")]
         Software,
+        [Description("Custom")]
+        Custom,
         ContextMenuSubMenu,
         AiSubMenu,
         ServicesSubMenu,
@@ -66,6 +68,9 @@ namespace AtlasToolbox.Enums
 
                 case ConfigurationType.Troubleshooting:
                     return App.GetValueFromItemList("Troubleshooting");
+
+                case ConfigurationType.Custom:
+                    return App.GetValueFromItemList("Custom");
                 default: return null;
             }
         }
