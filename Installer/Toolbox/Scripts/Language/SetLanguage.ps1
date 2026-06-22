@@ -23,6 +23,6 @@ Set-Culture -CultureInfo $Lang
 Set-WinHomeLocation -GeoId $GeoId
 
 Write-Output "Applying these settings to the welcome screen and new user accounts..."
-Copy-UserInternationalSettingsToSystem -SourceUser Current -DestinationUser System, NewUser
+Copy-UserInternationalSettingsToSystem -WelcomeScreen $true -NewUser $true
 
 Write-Output "Done. A restart is required for every change to fully apply."
