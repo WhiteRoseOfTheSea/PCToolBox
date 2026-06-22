@@ -41,7 +41,7 @@ namespace AtlasToolbox
 
         private void LoadText()
         {
-            IncompatibleVer.Text = App.GetValueFromItemList("IncompatibleVer") + ConfigurationManager.AppSettings.Get("AtlasVersion");
+            IncompatibleVer.Text = App.GetValueFromItemList("IncompatibleVer") + ConfigurationManager.AppSettings.Get("PCToolsVersion");
         }
 
         /// <summary>

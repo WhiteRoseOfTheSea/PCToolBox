@@ -10,11 +10,11 @@ namespace AtlasToolbox.Utils
         /// <returns></returns>
         public static bool IsCompatible()
         {
-            string[] compatibleVersions = ConfigurationManager.AppSettings.Get("AtlasVersion").Split(',');
-            string atlasVersion = (string)RegistryHelper.GetValue("HKLM\\SOFTWARE\\AME\\Playbooks\\Applied\\{00000000-0000-4000-6174-6C6173203A33}", "version");
+            string[] compatibleVersions = ConfigurationManager.AppSettings.Get("PCToolsVersion").Split(',');
+            string appliedVersion = (string)RegistryHelper.GetValue("HKLM\\SOFTWARE\\AME\\Playbooks\\Applied\\{40f095dc-77be-4e64-91f9-9626b4ffc421}", "version");
             foreach (string version in compatibleVersions)
             {
-                if (atlasVersion == version) return true;
+                if (appliedVersion == version) return true;
             }
             return false;
         }
