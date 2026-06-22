@@ -65,7 +65,9 @@ namespace AtlasToolbox
         /// </summary>
         private void ConfigureNLog()
         {
-            string name = $"logs/toolbox-log-{DateTime.Now.Year}_{DateTime.Now.Month}_{DateTime.Now.Day}_{DateTime.Now.Hour}_{DateTime.Now.Minute}_{DateTime.Now.Second}.log";
+            string logDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "PCTools Toolbox", "logs");
+            Directory.CreateDirectory(logDir);
+            string name = Path.Combine(logDir, $"toolbox-log-{DateTime.Now.Year}_{DateTime.Now.Month}_{DateTime.Now.Day}_{DateTime.Now.Hour}_{DateTime.Now.Minute}_{DateTime.Now.Second}.log");
             var config = new LoggingConfiguration();
             var logfile = new FileTarget("logfile")
             {
@@ -84,6 +86,7 @@ namespace AtlasToolbox
         private void OnAppUnhandledException(object sender, Microsoft.UI.Xaml.UnhandledExceptionEventArgs e)
         {
             logger.Error(e.Exception, "Unhandled exception occurred");
+            e.Handled = true;
         }
         
         /// <summary>

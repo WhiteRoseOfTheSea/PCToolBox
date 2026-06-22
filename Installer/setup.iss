@@ -3,7 +3,7 @@
 #include "CodeDependencies.iss"
 
 #define MyAppName "PCTools Toolbox"
-#define MyAppVersion "0.1.14"
+#define MyAppVersion "0.1.15"
 #define MyAppPublisher "PCTools"
 #define MyAppURL "https://github.com/WhiteRoseOfTheSea/PCToolBox"
 #define MyAppExeName "AtlasToolbox.exe"
