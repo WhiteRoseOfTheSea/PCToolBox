@@ -31,7 +31,7 @@ ArchitecturesInstallIn64BitMode=x64compatible
 ChangesAssociations=yes
 DisableProgramGroupPage=yes
 
-LicenseFile=C:\Users\Diego\Documents\AtlasToolbox\LICENSE
+LicenseFile={#SourcePath}\..\LICENSE
 
 OutputBaseFilename=PCToolsToolbox-Setup
 SolidCompression=yes
@@ -44,8 +44,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\Diego\Documents\AtlasToolbox\AtlasToolbox\bin\x64\Release\net8.0-windows10.0.26100.0\win-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Diego\Documents\AtlasToolbox\Installer\Toolbox\*"; DestDir: "{sd}\Windows\PCToolsModules\Toolbox"; Flags: ignoreversion recursesubdirs
+Source: "{#SourcePath}\..\AtlasToolbox\bin\x64\Release\net8.0-windows10.0.26100.0\win-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#SourcePath}\Toolbox\*"; DestDir: "{sd}\Windows\PCToolsModules\Toolbox"; Flags: ignoreversion recursesubdirs
 
 [Registry]
 Root: HKA; Subkey: "Software\Classes\{#MyAppAssocExt}\OpenWithProgids"; ValueType: string; ValueName: "{#MyAppAssocKey}"; ValueData: ""; Flags: uninsdeletevalue
