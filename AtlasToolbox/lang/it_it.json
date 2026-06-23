@@ -1,0 +1,388 @@
+{
+  "LangName": "Italiano (Italia)",
+  "LangKey": "it_it",
+
+
+  "ToBeTranslated": "Da tradurre",
+  "InterfaceTweaksDocumentation": "Documentazione modifiche interfaccia",
+  "ActivationPage": "Pagina di attivazione",
+  "ColorsPage": "Impostazioni personalizzazione colori",
+  "DateAndTime": "Impostazioni data e ora",
+  "DefaultApps": "App predefinite",
+  "DefaultGraphicsSettings": "Impostazioni grafiche predefinite",
+  "RegionLanguage": "Lingua",
+  "Privacy": "Impostazioni privacy",
+  "RegionProperties": "Proprietà regione",
+  "Taskbar": "Impostazioni barra delle applicazioni",
+  "CoreIsolation": "Isolamento core - Sicurezza di Windows",
+  "WindowsSettingsDocumentation": "Documentazione impostazioni Windows",
+  "BootConfigExplanations": "Spiegazioni di Microsoft",
+  "InterrupAffinityTool": "Interrupt Affinity Tool",
+  "ProcessExplorerApp": "Process Explorer",
+  "ProcessExplorerDocumentation": "Documentazione Process Explorer",
+  "NvidiaDisplayContainerMustReadFirst": "Da leggere prima",
+  "AdvancedConfigMustRead": "Documentazione configurazione avanzata",
+  "SecurityDocumentation": "Documentazione sicurezza",
+  "ResetPC": "Reimposta il PC (leggi prima)",
+  "RestartExplorerButton": "Riavvia Explorer.exe",
+  "RestartExplorerButtonDescription": "Alcune impostazioni dell'interfaccia potrebbero richiedere il riavvio di explorer.exe",
+  "ViewCurrentSettingsBootConfig": "Visualizza valori attuali",
+  "ViewCurrentSettingsBootConfigDescription": "Visualizza i valori di configurazione di avvio",
+  "VBSCurrentConfig": "Configurazione VBS attuale",
+  "VBSCurrentConfigDescription": "Visualizza la configurazione VBS attuale",
+  "ToggleDefender": "Attiva/disattiva",
+  "ToggleDefenderDescription": "Attiva o disattiva Windows Defender",
+  "ResetFTH": "Reimposta",
+  "ResetFTHDescription": "Reimposta le voci FTH",
+  "InstallOpenShell": "Installa OpenShell",
+  "InstallOpenShellDescription": "Installa",
+  "InstallDrivers": "Installa Driver",
+  "InstallDriversDescription": "Rileva l'hardware e installa i driver automaticamente",
+  "UninstallDriverTool": "Rimuovi Driver Tool",
+  "UninstallDriverToolDescription": "Rimuove lo strumento driver e tutti i driver pack scaricati per liberare spazio su disco",
+  "ExtendDisk": "Estendi Unità di Sistema",
+  "ExtendDiskDescription": "Unisce lo spazio non allocato del disco (e la partizione di Recovery, se trovata) all'unità di sistema",
+  "OpenNetplwiz": "Gestisci Account Utente",
+  "OpenNetplwizDescription": "Apre la finestra classica di gestione account utente (netplwiz)",
+  "FixErrors": "Risoluzione problemi",
+  "FixErrorsDescription": "Risolve gli errori 2502 e 2503",
+  "RepairWinComponent": "Ripara Componenti Windows",
+  "TelemetryComponents": "Componenti Telemetria",
+  "RemoveOffice": "Rimuovi Office",
+  "RemoveOfficeDescription": "Disinstalla tutti i prodotti Microsoft Office installati",
+  "SetLanguageItalian": "Imposta Lingua: Italiano",
+  "SetLanguageItalianDescription": "Cambia completamente la lingua di Windows in Italiano (pacchetto lingua, locale, tastiera, nuovi utenti)",
+  "SetLanguageEnglish": "Imposta Lingua: Inglese",
+  "SetLanguageEnglishDescription": "Cambia completamente la lingua di Windows in Inglese (pacchetto lingua, locale, tastiera, nuovi utenti)",
+  "AtlasDefault": "Reimposta rete alle impostazioni predefinite",
+  "WindowsDefault": "Reimposta rete alle impostazioni predefinite di Windows",
+  "BootConfigAppearance": "Aspetto configurazione di avvio",
+  "BootConfigAppearanceDescription": "Tutto ciò che riguarda l'aspetto dell'avvio di Windows",
+  "BootConfigBehavior": "Comportamento di avvio",
+  "BootConfigBehaviorDescription": "Tutto ciò che riguarda il comportamento di avvio",
+  "NvidiaDisplayContainerSubMenu": "Impostazioni NVIDIA Display Container",
+  "NvidiaDisplayContainerSubMenuDescription": "Tutto ciò che riguarda NVIDIA Display Container",
+  "StartMenuSubMenu": "Menu Start",
+  "StartMenuSubMenuDescription": "Tutto ciò che riguarda la personalizzazione del Menu Start di Windows",
+  "ContextMenuSubMenu": "Menu contestuale",
+  "ContextMenuSubMenuDescription": "Tutto ciò che riguarda il menu contestuale",
+  "AiSubMenu": "Funzionalità IA",
+  "AiSubMenuDescription": "Tutto ciò che riguarda le funzionalità IA in Windows 11",
+  "ServicesSubMenu": "Servizi",
+  "ServicesSubMenuDescription": "Tutto ciò che riguarda i servizi di Windows",
+  "BootConfigurationSubMenu": "Configurazione di avvio",
+  "BootConfigurationSubMenuDescription": "Tutto ciò che riguarda l'avvio di Windows",
+  "FileExplorerSubMenu": "Personalizzazione Esplora File",
+  "FileExplorerSubMenuDescription": "Tutto ciò che riguarda la personalizzazione di Esplora File",
+  "DriverConfigurationSubMenu": "Configurazione driver",
+  "DriverConfigurationSubMenuDescription": "Tutto ciò che riguarda la configurazione dei driver",
+  "CoreIsolationSubMenu": "Isolamento core (VBS)",
+  "CoreIsolationSubMenuDescription": "Tutto ciò che riguarda l'isolamento core",
+  "DefenderSubMenu": "Defender",
+  "DefenderSubMenuDescription": "Tutto ciò che riguarda Windows Defender",
+  "MitigationsSubMenu": "Mitigazioni",
+  "MitigationsSubMenuDescription": "Tutto ciò che riguarda le mitigazioni",
+  "TroubleshootingNetwork": "Rete",
+  "TroubleshootingNetworkDescription": "Tutto ciò che riguarda la risoluzione dei problemi di rete",
+  "FileSharingSubMenu": "Condivisione File",
+  "FileSharingSubMenuDescription": "Tutto ciò che riguarda la condivisione file in Windows",
+  "ContextMenuTerminals": "Aggiungi o rimuovi terminali dal menu contestuale",
+  "ShortcutIcon": "Cambia l'icona dei collegamenti",
+  "Mitigations": "Cambia lo stato delle mitigazioni",
+  "SafeMode": "Avvia in modalità provvisoria all'avvio",
+
+
+  // Configuration toggles
+  "Animations": "Animazioni",
+  "AnimationsDescription": "Attiva o disattiva le animazioni di Windows",
+
+  "ExtractContextMenu": "Opzione \"Estrai\" nel menu contestuale",
+  "ExtractContextMenuDescription": "Aggiunge un'opzione \"Estrai\" nel menu contestuale per i file compressi",
+
+  "RunWithPriority": "Esegui con priorità nel menu contestuale",
+  "RunWithPriorityDescription": "Aggiunge un'opzione \"Esegui con priorità\" nel menu contestuale per le applicazioni",
+
+  "LanmanWorkstation": "Lanman Workstation (SMB)",
+  "LanmanWorkstationDescription": "Attiva o disattiva il servizio Lanman Workstation per la condivisione file SMB",
+
+  "NetworkDiscovery": "Rilevamento rete",
+  "NetworkDiscoveryDescription": "Attiva o disattiva il rilevamento rete per facilitare la condivisione file",
+
+  "Printing": "Stampa",
+  "PrintingDescription": "Attiva o disattiva i servizi di stampa",
+
+  "NvidiaDispayContainer": "NVIDIA Display Container",
+  "NvidiaDispayContainerDescription": "Attiva o disattiva il servizio NVIDIA Display Container",
+
+  "AddNvidiaDisplayContainerContextMenu": "NVIDIA Display Container nel menu contestuale",
+  "AddNvidiaDisplayContainerContextMenuDescription": "Aggiunge un interruttore NVIDIA Display Container nel menu contestuale",
+
+  "CpuIdleContextMenu": "Interruttore CPU Idle nel menu contestuale",
+  "CpuIdleContextMenuDescription": "Aggiunge un interruttore CPU Idle nel menu contestuale",
+
+  "LockScreen": "Attiva la schermata di blocco",
+  "LockScreenDescription": "Attiva o disattiva la schermata di blocco di Windows",
+
+  "ShortcutText": "Testo collegamento",
+  "ShortcutTextDescription": "Mostra o nasconde il testo \"Collegamento\" sui collegamenti",
+
+  "BootLogo": "Logo di avvio",
+  "BootLogoDescription": "Attiva o disattiva il logo di avvio di Windows",
+
+  "BootMessages": "Messaggi di avvio",
+  "BootMessagesDescription": "Attiva o disattiva i messaggi di avvio di Windows",
+
+  "NewBootMenu": "Nuovo menu di avvio",
+  "NewBootMenuDescription": "Attiva o disattiva il nuovo menu di avvio di Windows",
+
+  "SpinningAnimation": "Animazione di caricamento",
+  "SpinningAnimationDescription": "Attiva o disattiva l'animazione di caricamento all'avvio",
+
+  "AdvancedBootOptions": "Opzioni di avvio avanzate all'avvio",
+  "AdvancedBootOptionsDescription": "Attiva o disattiva le opzioni di avvio avanzate all'avvio",
+
+  "AutomaticRepair": "Ripristino automatico",
+  "AutomaticRepairDescription": "Attiva o disattiva il ripristino automatico in caso di avvio non riuscito",
+
+  "KernelParameters": "Parametri del kernel all'avvio",
+  "KernelParametersDescription": "Attiva o disattiva i parametri del kernel all'avvio",
+
+  "HighestMode": "Modalità massima prestazioni",
+  "HighestModeDescription": "Attiva o disattiva la modalità massima prestazioni per i display",
+
+  "CompactView": "Visualizzazione compatta",
+  "CompactViewDescription": "Attiva o disattiva la visualizzazione compatta in Esplora File",
+
+  "RemovableDrivesInSidebar": "Unità rimovibili nella barra laterale",
+  "RemovableDrivesInSidebarDescription": "Mostra o nasconde le unità rimovibili nella barra laterale di Esplora File",
+
+  "BackgroundApps": "App in background",
+  "BackgroundAppsDescription": "Attiva o disattiva le app in background",
+
+  "SearchIndexing": "Indicizzazione ricerca",
+  "SearchIndexingDescription": "Attiva o disattiva l'indicizzazione per la ricerca",
+
+  "FsoAndGameBar": "Ottimizzazioni schermo intero e Game Bar",
+  "FsoAndGameBarDescription": "Attiva o disattiva le ottimizzazioni a schermo intero e la Game Bar",
+
+  "AutomaticUpdates": "Aggiornamenti automatici",
+  "AutomaticUpdatesDescription": "Attiva o disattiva gli aggiornamenti automatici",
+
+  "DeliveryOptimisation": "Ottimizzazione recapito",
+  "DeliveryOptimisationDescription": "Attiva o disattiva l'ottimizzazione recapito",
+
+  "Hibernation": "Sospensione",
+  "HibernationDescription": "Attiva o disattiva la sospensione",
+
+  "Location": "Posizione",
+  "LocationDescription": "Attiva o disattiva i servizi di localizzazione",
+
+  "PhoneLink": "Collegamento al telefono e dispositivi mobili",
+  "PhoneLinkDescription": "Attiva o disattiva il collegamento al telefono e i dispositivi mobili",
+
+  "PowerSaving": "Risparmio energetico",
+  "PowerSavingDescription": "Attiva o disattiva le funzioni di risparmio energetico",
+
+  "Sleep": "Sospensione (Sleep)",
+  "SleepDescription": "Attiva o disattiva la modalità sospensione",
+
+  "SystemRestore": "Ripristino configurazione di sistema",
+  "SystemRestoreDescription": "Attiva o disattiva il ripristino configurazione di sistema",
+
+  "UpdateNotifications": "Notifiche aggiornamenti",
+  "UpdateNotificationsDescription": "Attiva o disattiva le notifiche di aggiornamento",
+
+  "WebSearch": "Ricerca Web nel Menu Start",
+  "WebSearchDescription": "Attiva o disattiva la ricerca web nel Menu Start",
+
+  "Widgets": "Widget del desktop",
+  "WidgetsDescription": "Attiva o disattiva i widget del desktop",
+
+  "WindowsSpotlight": "Windows Spotlight",
+  "WindowsSpotlightDescription": "Attiva o disattiva Windows Spotlight sulla schermata di blocco",
+
+  "AppStoreArchiving": "Archiviazione Microsoft Store",
+  "AppStoreArchivingDescription": "Attiva o disattiva l'archiviazione di Microsoft Store",
+
+  "TakeOwnership": "Aggiungi \"Acquisisci proprietà\" nel menu contestuale",
+  "TakeOwnershipDescription": "Aggiunge un'opzione \"Acquisisci proprietà\" nel menu contestuale per file e cartelle",
+
+  "OldContextMenu": "Menu contestuale classico (pre-Windows 11)",
+  "OldContextMenuDescription": "Attiva o disattiva il menu contestuale classico precedente a Windows 11",
+
+  "EdgeSwipe": "Scorrimento dal bordo",
+  "EdgeSwipeDescription": "Attiva o disattiva i gesti di scorrimento dal bordo",
+
+  "AppIconsThumbnail": "Icone app nelle miniature",
+  "AppIconsThumbnailDescription": "Mostra o nasconde le icone delle app nelle miniature dei file",
+
+  "AutomaticFolderDiscovery": "Rilevamento automatico cartelle",
+  "AutomaticFolderDiscoveryDescription": "Attiva o disattiva il rilevamento automatico delle cartelle in Esplora File",
+
+  "Gallery": "Attiva la galleria",
+  "GalleryDescription": "Attiva o disattiva la galleria in Esplora File",
+
+  "SnapLayout": "Attiva i layout di aggancio finestre",
+  "SnapLayoutDescription": "Attiva o disattiva i layout di aggancio finestre",
+
+  "RecentItems": "Sblocca gli elementi recenti in Esplora File",
+  "DesktopIcons": "Mostra le icone Risorse del computer, Cestino, Rete e Pannello di controllo sul desktop",
+  "RecentItemsDescription": "Attiva o disattiva gli elementi recenti in Esplora File",
+
+  "VerboseStatusMessage": "Messaggi di stato dettagliati",
+  "VerboseStatusMessageDescription": "Attiva o disattiva i messaggi di stato dettagliati durante l'avvio e l'arresto",
+
+  "SuperFetch": "SuperFetch",
+  "SuperFetchDescription": "Attiva o disattiva il servizio SuperFetch (SysMain)",
+
+  "StaticIp": "Imposta automaticamente IP statico",
+  "StaticIpDescription": "Configura automaticamente un indirizzo IP statico per la scheda di rete",
+
+  "HideAppBrowserControl": "Controllo browser app",
+  "HideAppBrowserControlDescription": "Mostra/nasconde il controllo browser integrato in Sicurezza di Windows",
+
+  "SecurityHealthTray": "Pulsante Sicurezza nella barra delle applicazioni",
+  "SecurityHealthTrayDescription": "Mostra o nasconde il pulsante Sicurezza nella barra delle applicazioni",
+
+  "FaultTolerantHeap": "Fault Tolerant Heap",
+  "FaultTolerantHeapDescription": "Attiva o disattiva la mitigazione Fault Tolerant Heap",
+
+  "Copilot": "Attiva Microsoft Copilot",
+  "CopilotDescription": "Attiva o disattiva l'integrazione di Microsoft Copilot in Windows 11",
+
+  "Recall": "Attiva Windows Recall",
+  "RecallDescription": "Attiva o disattiva la funzione Windows Recall",
+
+  "CpuIdle": "Attiva CPU Idling",
+  "CpuIdleDescription": "Attiva o disattiva la funzione CPU idling",
+
+  "ProcessExplorer": "Installa Process Explorer",
+  "ProcessExplorerDescription": "Installa Process Explorer da Microsoft Sysinternals",
+
+  "VbsState": "Attiva VBS",
+  "VbsStateDescription": "Attiva o disattiva la sicurezza basata sulla virtualizzazione (VBS)",
+
+  "GiveAccessToMenu": "Voce \"Concedi accesso a\"",
+  "GiveAccessToMenuDescription": "Aggiunge un'opzione \"Concedi accesso a\" nel menu contestuale per file e cartelle",
+
+  "NetworkNavigationPane": "Riquadro di navigazione rete",
+  "NetworkNavigationPaneDescription": "Mostra o nasconde il riquadro di navigazione rete in Esplora File",
+
+  "FileSharing": "Condivisione file",
+  "FileSharingDescription": "Attiva o disattiva le funzioni di condivisione file",
+
+  "WindowsHello": "Windows Hello",
+  "WindowsHelloDescription": "Attiva o disattiva l'autenticazione biometrica Windows Hello",
+
+  // End of configuration toggles
+
+  // Settings and Home texts
+  "Home_WinVer": "Versione di Windows",
+  "Home_PlaybookVer": "Versione Playbook",
+  "Home_HeaderText": "Home",
+  "Home_ProfilesText": "Profili",
+  "Home_Favorites": "Preferiti",
+  "NewProfilesButton": "Crea un nuovo profilo",
+  "IncompatibleVer": "L'installazione attuale di PCTools/Windows non è compatibile con questa versione del Toolbox. Aggiorna a PCTools ",
+  "StatingServices": "Avvio dei servizi in corso...",
+
+  // Dialog text
+  "CurrentConfigIsSavedMessage": "La configurazione attuale verrà salvata in questo profilo",
+  "DeleteProfileConfirmation": "Vuoi davvero eliminare questo profilo?",
+  "TryDeleteDefaultProfile": "Non puoi eliminare il profilo predefinito",
+  "Home_SetProfileConfig": "Vuoi davvero impostare questo profilo?",
+  "RestartPCPromptHeader": "Per applicare completamente le modifiche, riavvia il PC",
+  "RelogApplyDesc": "Per applicare completamente le modifiche, disconnettiti.",
+  "Yes": "Sì",
+  "No": "No",
+  "Cancel": "Annulla",
+  "Ok": "Ok",
+  "Restart": "Riavvia",
+  "Later": "Più tardi",
+  "Create": "Crea",
+  "Home_SetProfileBtn": "Imposta questo profilo",
+  "Home_DeleteProfileBtn": "Elimina questo profilo",
+  "Settings": "Impostazioni",
+  "Behavior": "Generale",
+  "Settings_BackgroundDesc": "Mantieni il Toolbox in background",
+  "About": "Informazioni",
+  "CloneRepoCard": "Clona questo repository",
+  "BugReportCard": "Crea una segnalazione di bug",
+  "WarningHeader": "Questo codice è fornito dal team di PCTools. Questo software è pensato per essere usato con PCTools SOLO su una versione di Windows supportata. Qualsiasi altra playbook e/o versione di Windows non supportata non è consigliata.",
+  "InstallSoftware": "Installa Software",
+  "InstallButton": "Installa",
+  "Unstable": "Instabile",
+  "UnstableDescription": "L'uso di questa app è attualmente solo a scopo di test. L'app potrebbe contenere bug che potrebbero danneggiare l'installazione di Windows. Usala a tuo rischio.",
+  "BetaVersion": "Versione Beta",
+  "BetaVersionDescription": "Questa applicazione è attualmente in versione Beta. Se trovi bug o vuoi suggerire una funzione, lascia un feedback su Discord. Le funzionalità sono soggette a modifiche.",
+  "RestartApp": "Riavvia il Toolbox per applicare",
+  "RestartAppDesc": "Per applicare queste modifiche, riavvia il Toolbox.",
+  "RestartAppBtn": "Riavvia il Toolbox ora",
+  "RestartPC": "Riavvia il PC per applicare.",
+  "RestartPCDesc": "Per applicare queste modifiche, riavvia il PC.",
+  "RestartBtn": "Riavvia ora",
+  "RelogApply": "Disconnettiti per applicare",
+  "ReloadApplyDesc": "Per applicare queste modifiche, disconnettiti.",
+  "RelogBtn": "Disconnetti",
+  "CheckUpdates": "Controlla aggiornamenti",
+  "CheckUpdatesBtn": "Controlla ora",
+  "LatestVer": "Non sono disponibili aggiornamenti",
+  "NewUpdate": "Aggiornamento",
+  "NewUpdateDesc": "È disponibile un nuovo aggiornamento. Vuoi installarlo ora?",
+  "InstallNow": "Installa ora",
+  "ToggleWindowsUpdates": "Attiva/disattiva Windows Update",
+  "WindowsUpdate": "Windows Update",
+  "WindowsUpdateDescription": "Impostazioni relative a Windows Update",
+  "FeatureHeader": "Aggiornamenti delle funzionalità:",
+  "QualityHeader": "Aggiornamenti della qualità:",
+  "Set": "Imposta",
+  "WindowsUpdateDeferral": "Imposta il numero di giorni per il differimento di Windows Update",
+  "UpdateDeferralPromptTitle": "Imposta il tempo di differimento di Windows Update",
+  "ResetWindowsUpdateDeferral": "Reimposta il differimento di Windows Update",
+  "MicrosoftStoreToggle": "Attiva/disattiva Microsoft Store",
+
+
+  // Home tiles
+  "Tile_DocumentationTitle": "Documentazione",
+  "Tile_DocumentationDescription": "Installa PCTools, FAQ e molto altro",
+  "Tile_DiscordTitle": "Discord",
+  "Tile_DiscordDescription": "Chiedi supporto e fai amicizia!",
+  "Tile_GithubTitle": "GitHub",
+  "Tile_GithubDescription": "Esplora il codice di PCTools e contribuisci",
+  "Tile_KofiTitle": "Sostienici su Ko-Fi",
+  "Tile_KofiDescription": "Aiutaci a continuare questo progetto!",
+
+  // Menu Items & other navigation item texts
+  "SearchPlaceholder": "Cerca nelle impostazioni di PCTools...",
+
+  "Home": "Home",
+  "Software": "Software",
+  "GeneralConfig": "Configurazione Generale",
+  "Interface": "Modifiche Interfaccia",
+  "Windows": "Impostazioni Windows",
+  "Advanced": "Configurazione Avanzata",
+  "Security": "Sicurezza",
+  "Troubleshooting": "Risoluzione Problemi",
+  "Custom": "Personalizzate",
+
+  "Language": "Lingua",
+
+  "NoFavorites": "Non hai ancora aggiunto nulla ai preferiti.",
+  "SystemInfo": "Informazioni su questo sistema:",
+  "LearnMore": "Scopri di più",
+
+  "TroubleshootingDocumenation": "Documentazione risoluzione problemi",
+
+  //
+  // Experiments
+  //
+  "ExperimentsHeader": "Esperimenti",
+  "ExperimentsCardHeader": "Funzionalità sperimentali",
+  "ExperimentsCardDescription": "Queste funzionalità sono sperimentali e potrebbero non funzionare come previsto. Richiede un riavvio per applicare le modifiche",
+  // Search experiment
+  "SearchExperiment": "Barra di ricerca",
+  "SearchExperimentDescription": "Attiva una barra di ricerca per trovare rapidamente le impostazioni nel Toolbox",
+  // Icons experiment
+  "IconsExperiment": "Icone",
+  "IconsExperimentDescription": "Attiva le icone accanto a ogni impostazione per un'identificazione più facile e un aspetto più gradevole"
+}

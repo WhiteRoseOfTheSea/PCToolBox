@@ -243,7 +243,7 @@ namespace AtlasToolbox
                 StringList = JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText(Path.Combine(AppContext.BaseDirectory, "lang", $"{lang}.json")));
             } catch
             {
-                RegistryHelper.SetValue(@"HKLM\SOFTWARE\PCTools\Services\Toolbox", "lang", "en_us");
+                RegistryHelper.SetValue(@"HKLM\SOFTWARE\PCTools\Services\Toolbox", "lang", "it_it");
                 string lang = (string)RegistryHelper.GetValue(@"HKLM\SOFTWARE\PCTools\Services\Toolbox", "lang");
                 StringList = JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText(Path.Combine(AppContext.BaseDirectory, "lang", $"{lang}.json")));
             }
