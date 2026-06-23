@@ -73,9 +73,9 @@ namespace AtlasToolbox
             }
             App.RootList = this.RootList;
             NavigationViewControl.SelectedItem = NavigationViewControl.MenuItems.OfType<NavigationViewItem>().First();
-            App.CurrentCategory = "AtlasToolbox.Views.HomePage";
+            App.CurrentCategory = "AtlasToolbox.Views.SoftwarePage";
             ContentFrame.Navigate(
-                       typeof(Views.HomePage),
+                       typeof(SoftwarePage),
                        null,
                        new Microsoft.UI.Xaml.Media.Animation.EntranceNavigationTransitionInfo()
                        );
@@ -121,7 +121,6 @@ namespace AtlasToolbox
             LearnMoreBtn.Content = App.GetValueFromItemList("LearnMore");
 
             // Navigation Items
-            Home.Content = App.GetValueFromItemList("Home_HeaderText");
             Software.Content = App.GetValueFromItemList("Software");
             GeneralConfig.Content = App.GetValueFromItemList("GeneralConfig");
             Interface.Content = App.GetValueFromItemList("Interface");
@@ -163,9 +162,6 @@ namespace AtlasToolbox
                     break;
                 case "AtlasToolbox.Views.SoftwarePage":
                     Navigate(typeof(SoftwarePage));
-                    break;
-                case "AtlasToolbox.Views.HomePage":
-                    Navigate(typeof(HomePage));
                     break;
                 default:
                     Navigate(typeof(ConfigPage));

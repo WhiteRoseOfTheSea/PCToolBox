@@ -110,10 +110,6 @@
             </NavigationView.AutoSuggestBox>-->
 
             <NavigationView.MenuItems>
-                <NavigationViewItem
-                    x:Name="Home"
-                    Icon="Home"
-                    Tag="AtlasToolbox.Views.HomePage" />
                 <NavigationViewItem x:Name="Software" Tag="AtlasToolbox.Views.SoftwarePage">
                     <NavigationViewItem.Icon>
                         <FontIcon Glyph="&#xE896;" />

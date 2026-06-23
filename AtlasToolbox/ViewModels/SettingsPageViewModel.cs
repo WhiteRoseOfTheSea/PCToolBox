@@ -42,7 +42,8 @@ namespace AtlasToolbox.ViewModels
         public SettingsPageViewModel()
         {
             Languages = new();
-            Dictionary<string, string> langs = JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText(@$"lang\index.json"));
+            string indexPath = Path.Combine(AppContext.BaseDirectory, "lang", "index.json");
+            Dictionary<string, string> langs = JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText(indexPath));
             foreach (KeyValuePair<string, string> language in langs)
             {
                 Languages.Add(new (language.Value, language.Key));
