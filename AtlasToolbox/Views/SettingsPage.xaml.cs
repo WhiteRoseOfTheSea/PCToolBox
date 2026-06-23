@@ -52,8 +52,8 @@ namespace AtlasToolbox.Views
             CheckUpdateButton.Content = App.GetValueFromItemList("CheckUpdatesBtn");
             NoUpdatesBar.Text = App.GetValueFromItemList("LatestVer");
             SystemInfo.Header = App.GetValueFromItemList("SystemInfo");
-            WinVer.Text = App.GetValueFromItemList("Home_WinVer") + ": " + RegistryHelper.GetValue("HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion", "DisplayVersion").ToString();
-            AtlasVer.Text = App.GetValueFromItemList("Home_PlaybookVer") + ": " + RegistryHelper.GetValue("HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion", "RegisteredOrganization").ToString();
+            WinVer.Text = App.GetValueFromItemList("Home_WinVer") + ": " + (RegistryHelper.GetValue("HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion", "DisplayVersion")?.ToString() ?? "N/A");
+            AtlasVer.Text = App.GetValueFromItemList("Home_PlaybookVer") + ": " + (RegistryHelper.GetValue("HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion", "RegisteredOrganization")?.ToString() ?? "N/A");
 
             // Experiments
             ExperimentalHeader.Text = App.GetValueFromItemList("ExperimentsHeader");
